@@ -1,16 +1,16 @@
 // *entries / fromentries *//
 
-let a = {  //Object
-    name: 'Albert',
-    age: 25,
-    lastname: 'Ivanov'
-};
-
-let b = [  //Entries
-    ['name', 'albert'],
-    ['age', 25],
-    ['lastname', 'Ivanov']
-]
+// let a = {  //Object
+//     name: 'Albert',
+//     age: 25,
+//     lastname: 'Ivanov'
+// };
+//
+// let b = [  //Entries
+//     ['name', 'albert'],
+//     ['age', 25],
+//     ['lastname', 'Ivanov']
+// ]
 
 // console.log(Object.entries(a));
 // console.log(Object.fromEntries(b));
@@ -27,8 +27,10 @@ let b = [  //Entries
 // }
 // f1();
 
-let alcohol = ['Jack Daniels', 'Jameson', 'Egermaister'];
-alcohol.shift();
-alcohol.unshift('Jony Walker');
-alcohol.push('Stella');
-console.log(alcohol);
+// * Array *//
+// let alcohol = ['Jack Daniels', 'Jameson', 'Egermaister'];
+// alcohol.shift(); //удаляем первый элемент
+// alcohol.unshift('Jony Walker'); //добавить в начало элемент
+// alcohol.push('Stella'); // добавить в конец
+// alcohol.pop(); //удалить с конца
+// console.log(alcohol);
