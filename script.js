@@ -29,4 +29,6 @@ let b = [  //Entries
 
 let alcohol = ['Jack Daniels', 'Jameson', 'Egermaister'];
 alcohol.shift();
-console.log(alcohol[0]);
+alcohol.unshift('Jony Walker');
+alcohol.push('Stella');
+console.log(alcohol);
