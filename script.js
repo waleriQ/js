@@ -34,3 +34,22 @@
 // alcohol.push('Stella'); // добавить в конец
 // alcohol.pop(); //удалить с конца
 // console.log(alcohol);
+
+// * Array Cycle *//
+
+// let arr = ["Яблоко", "Апельсин", "Груша"];
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(i);
+// }
+
+//--------------
+
+// let fruits = ["Яблоко", "Апельсин", "Слива"];
+// for (let ret of fruits) {
+// console.log(ret);
+// }
+
+//--------------
+
+let i = ['A', 'B', 'C', 'D', 'F'];
+console.log(i.length);
