@@ -50,15 +50,49 @@
 // }
 
 //--------------
+//
+// function eachCons(array, n) {
+//     const r = [];
+//     for( let i = 0; i <= array.length - n; i++) {
+//         const chunk = [];
+//         for(let j = i; j < i+n; j++) {
+//             chunk.push(array[j])
+//         }
+//         r.push[chunk];
+//     }
+// }
+// eachCons([3, 5, 8, 13], 1);
 
-function eachCons(array, n) {
-    const r = [];
-    for( let i = 0; i <= array.length - n; i++) {
-        const chunk = [];
-        for(let j = i; j < i+n; j++) {
-            chunk.push(array[j])
-        }
-        r.push[chunk];
-    }
+// const newpeople = people.filter(person => person.age >= 18);
+// console.log(newpeople);
+
+
+// ===========================
+
+// МЕТОД МАССИВА SPLITE
+
+const people = [
+    {id: 1, name: 'Ольга', age: 5, money: '15000'},
+    {id: 2, name: 'Иван', age: 31, money: '25000'},
+    {id: 3, name: 'Albert', age: 12, money: '7000'},
+    {id: 4, name: 'Kony', age: 45, money: '20000'},
+];
+
+// const names = 'Вася, петя, оля, dodik';
+//
+// let mas = names.split('',);
+// console.log(typeof mas);
+// console.log(mas);
+//
+// // JOIN
+// const names2 = ['В', 'а', 'с', 'я', ',', ' ', 'п', 'е', 'т', 'я', ',', ' ', 'о', 'л', 'я', ',', ' ', 'd', 'o', 'd', 'i', 'k'];
+// let mas2 = names2.join('');
+// console.log(typeof mas2);
+// console.log(mas2);
+
+
+const stringToNumber = function(str){
+    return parseInt(str);
 }
-eachCons([3, 5, 8, 13], 1);
+
+console.log(stringToNumber('32'))
