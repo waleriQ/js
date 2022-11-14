@@ -91,8 +91,24 @@ const people = [
 // console.log(mas2);
 
 
-const stringToNumber = function(str){
-    return parseInt(str);
-}
+// const stringToNumber = function(str){
+//     return parseInt(str);
+// }
+//
+// console.log(stringToNumber('32'))
 
-console.log(stringToNumber('32'))
+// let b = 0;
+// console.log(a == b);
+
+
+//METHOD REPLACE
+const a = 'This doctor is good, very good';
+const b = a.replace('good', 'bad');
+console.log(b); //Меняем только первый good
+// =================
+const c = 'This doctor is good, very good';
+const d = c.replace(/good/gi, 'bad');
+console.log(d);
+// Меняем оба bad через => регулярные выражения
+// g - global; i - ignore(игнорирование регистра)
+
