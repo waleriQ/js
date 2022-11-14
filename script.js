@@ -112,3 +112,8 @@ console.log(d);
 // Меняем оба bad через => регулярные выражения
 // g - global; i - ignore(игнорирование регистра)
 
+// //METHOD MATH.RANDOM
+// function getAge(inputString){
+//     return inputString = Math.ceil(Math.random() * 9);
+// }
+// console.log(getAge());
