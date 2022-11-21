@@ -117,3 +117,16 @@ console.log(d);
 //     return inputString = Math.ceil(Math.random() * 9);
 // }
 // console.log(getAge());
+
+// const stringToNumber = function(str){
+//     return parseInt(str);
+// }
+// console.log(stringToNumber('fs2ad'))
+
+// РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ
+//Существует два синтаксиса для создания регулярного выражения.
+//regexp = new RegExp("шаблон", "флаги");
+// …И короткий синтаксис, использующий слеши "/":
+//
+// regexp = /шаблон/; // без флагов
+// regexp = /шаблон/gmi; // с флагами gmi (будут описаны далее)
